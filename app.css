@@ -115,13 +115,16 @@ article{
     margin-bottom: 200px;
 }
 
-#image2 {
+/* #image2{
     min-height: 40vh;
-    background-image: url(images/illustration-stay-productive.png);
+    width: 376px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}-
+} */
+#photo{
+    width: 376px;
+}
 #four{
     margin: 20px;
 }
@@ -211,7 +214,7 @@ article{
 }
 #logo{
     padding: 20px 0;
-    display: flex;
+    /* display: flex; */
 }
 #logo p{
     font-size: 20px;
@@ -221,6 +224,16 @@ article{
     font-size: 20px;
     padding-right: 20px;
     padding-top: 5px;
+}
+#flex_wrap{
+    display: block;
+}
+#logo-1{
+    display: flex;
+    margin-bottom: 30px;
+}
+#list_1, #list_2{
+    margin-bottom: 50px;
 }
 
 #list_1 li, #list_2 li{
@@ -244,4 +257,115 @@ article{
     font-size: 20px;
     border: 1px solid;
     border-radius: 100%;
+}
+
+@media screen and (min-width:776px) {
+    body{
+        max-width: 1440px;
+        margin: 0 20px;
+    }
+    #one{
+        width: 376px;
+        margin: 10px auto;
+    }
+    #image{
+        padding: 35px;
+    }
+    #two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 50px;
+        
+    }
+    #wrapper{
+        display: block;
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+        
+    }
+    #three{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    #wrapper_item{
+        margin: 0 auto;
+        display: block;
+        width: 75%;
+    }
+    #wrappers{
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    #four .fas{
+        font-size: 30px;
+        }
+    #five{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }    
+    #five .fill{
+        display: flex;
+    }
+     #five .fill h3{
+        width: 25%;
+     }
+    #five .fill #email{
+        width: 50%;
+    }
+    
+    #footer{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+    #flex_wrap{
+        display: flex;
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+    #logo{
+        display: flex;
+        /* width: 100%; */
+    }
+    #logo >p{
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    #logo-1 >p{
+        display: flex;
+        
+    }
+    #logo-1 h1{
+        display: block;
+        /* width: 100% */
+        
+    }
+
+    #logo-1{
+        display: flex;
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    #list_1, #list_2{
+        display: block;
+        margin: 0 20px;
+    }
+
+    #contact-flex{
+        margin: 0 0 0 30px ;
+    }
+     #contact-flex{
+         margin:0 auto;
+     }
+    
+    .attribution{
+        display: none;
+    }
 }
