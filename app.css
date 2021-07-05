@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    max-width: 375px;
+    background-color: hsl(218, 28%, 13%);
+    font-size: 14px;
+    color: white;
+    
+}
+#left_nav {
+    font-size: 25px;
+    display: flex;
+}
+#left_nav ion-icon {
+    padding: 5px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    
+}
+nav ul a{
+    text-decoration: none;  
+    padding-left: 50px;
+    text-transform: capitalize;
+    color: white;
+    /* font-weight: 400, 700; */
+}
+
+#image{
+    min-height: 40vh;
+    
+    background-image: url(images/illustration-intro.png);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     /* background-attachment: fixed */
+}
+#one h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+#one p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+#one {
+    margin-bottom: 100px;
+}
+
+#one h2{
+    padding: 15px;
+    background-color: hsl(198, 60%, 50%);
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 40px;
+}
+
+article{
+    /* padding: 20px 20px; */
+}
+#two{
+    display: block;
+    text-align: center;
+    margin-bottom: 200px;
+}
+#two h3{
+    font-size: 22px;
+    margin: 20px 0;
+}
+#two p{
+    font-size: 20px;
+    
+}
+#two img{
+    margin-top: 100px;
+}
+
+#three h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+#three h2{
+    color: lightskyblue;
+}
+#three p{
+    margin: 20px 0;
+    font-size: 20px;
+}
+#three .underline{
+    margin: 10px 0;
+    border: 1px solid lightskyblue;
+    width: 55%;
+}
+#three .fas{
+    color: lightskyblue;
+    margin-left: 10px;
+}
+#three{
+    margin-bottom: 200px;
+}
+
+#image2 {
+    min-height: 40vh;
+    background-image: url(images/illustration-stay-productive.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}-
+#four{
+    margin: 20px;
+}
+#four .fas{
+    color: lightskyblue;
+    font-size: 25px;
+}
+.plan{
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-bottom: 30px; 
+    padding: 30px;
+}
+.note{
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.avater{
+    display: flex;
+    font-size: 14px;
+}
+.avater img{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 20px;
+}
+.avater h3{
+    margin-bottom: 5px;
+     font-size: 14px;
+}
+.avater p{
+    font-size: 12px;
+}
+.text{
+    display: block;
+}
+
+
+.form{
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 10px;
+}
+#five{
+    margin-top: 200px;
+}
+#five .form_note{
+    text-align: center;
+}
+#five .form_note h1{
+    font-size: 25px;
+    padding: 20px;
+}
+#five .form_note p{
+    font-size: 20px;
+}
+
+#five h3{
+    padding: 15px;
+    background-color: hsl(198, 60%, 50%);
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 40px;
+}
+#email {
+    display: flex;
+    padding: 15px;
+    /* background-color: hsl(198, 28%, 32%); */
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 40px;
+}
+#six{
+    margin: 100px 0;
+    /* background-color: hsl(216, 53%, 9%); */
+    
+}
+#contact{
+    font-size: 60px;
+    display: flex;
+    
+}
+#contact ion-icon{
+    padding: 10px;
+}
+#logo{
+    padding: 20px 0;
+    display: flex;
+}
+#logo p{
+    font-size: 20px;
+    
+}
+#logo .fas{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+#list_1 li, #list_2 li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.awesome-wrapper-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 38px;
+    transition: transform 1s ease;
+}
+.font {
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 100%;
+}
